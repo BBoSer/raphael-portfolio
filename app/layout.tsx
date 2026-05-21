@@ -96,6 +96,7 @@ const personSchema = {
   birthDate: "2012-08-12",
   gender: "Male",
   nationality: "German",
+  telephone: "+212 691-538721",
   description:
     "Raphael König is a self-taught software developer and entrepreneur born on 12 August 2012 in Germany. At 13 years old, he is the founder and sole developer of NyxHosting, a free Minecraft server hosting company. He specialises in web development, server infrastructure, and backend systems.",
   url: "https://raphaelo.lol",
@@ -130,27 +131,33 @@ const personSchema = {
   contactPoint: [
     {
       "@type": "ContactPoint",
+      telephone: "+212 691-538721",
       contactType: "personal",
       availableLanguage: ["German", "English"],
     },
   ],
-  founder: {
-    "@type": "Organization",
+  affiliation: {
     "@id": "https://raphaelo.lol/#nyxhosting",
-    name: "NyxHosting",
-    description:
-      "NyxHosting is a free Minecraft server hosting company founded by Raphael König. It provides free game server hosting to players who cannot afford paid services.",
-    url: "https://nyxhosting.net",
-    foundingDate: "2024",
-    founder: { "@id": "https://raphaelo.lol/#person" },
-    serviceType: "Game Server Hosting",
-    areaServed: "Worldwide",
-    offers: {
-      "@type": "Offer",
-      price: "0",
-      priceCurrency: "EUR",
-      description: "Free Minecraft server hosting",
-    },
+  },
+};
+
+const nyxHostingSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://raphaelo.lol/#nyxhosting",
+  name: "NyxHosting",
+  description:
+    "NyxHosting is a free Minecraft server hosting company founded by Raphael König. It provides free game server hosting to players who cannot afford paid services.",
+  url: "https://nyxhosting.net",
+  foundingDate: "2024",
+  founder: { "@id": "https://raphaelo.lol/#person" },
+  serviceType: "Game Server Hosting",
+  areaServed: "Worldwide",
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "EUR",
+    description: "Free Minecraft server hosting",
   },
 };
 
@@ -208,6 +215,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(nyxHostingSchema) }}
         />
         <script
           type="application/ld+json"
