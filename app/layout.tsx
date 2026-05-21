@@ -125,7 +125,7 @@ const personSchema = {
   ],
   knowsLanguage: ["German", "English"],
   sameAs: [
-    "https://github.com/raphaelkoenig",
+    "https://github.com/BBoSer",
     "https://raphaelo.lol",
   ],
   contactPoint: [
