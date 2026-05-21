@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://raphaelkoenig.dev"),
+  metadataBase: new URL("https://raphaelo.lol"),
   title: {
     default: "Raphael König — Developer & Founder of NyxHosting",
     template: "%s | Raphael König",
@@ -45,14 +45,14 @@ export const metadata: Metadata = {
     "Node.js developer",
     "henryline Discord",
   ],
-  authors: [{ name: "Raphael König", url: "https://raphaelkoenig.dev" }],
+  authors: [{ name: "Raphael König", url: "https://raphaelo.lol" }],
   creator: "Raphael König",
   publisher: "Raphael König",
   category: "Technology",
   openGraph: {
     type: "profile",
     locale: "en_US",
-    url: "https://raphaelkoenig.dev",
+    url: "https://raphaelo.lol",
     siteName: "Raphael König",
     title: "Raphael König — Developer & Founder of NyxHosting",
     description:
@@ -81,14 +81,14 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://raphaelkoenig.dev",
+    canonical: "https://raphaelo.lol",
   },
 };
 
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://raphaelkoenig.dev/#person",
+  "@id": "https://raphaelo.lol/#person",
   name: "Raphael König",
   alternateName: ["Raphael Koenig", "raphaelkoenig", "henryline"],
   givenName: "Raphael",
@@ -98,8 +98,8 @@ const personSchema = {
   nationality: "German",
   description:
     "Raphael König is a self-taught software developer and entrepreneur born on 12 August 2012 in Germany. At 13 years old, he is the founder and sole developer of NyxHosting, a free Minecraft server hosting company. He specialises in web development, server infrastructure, and backend systems.",
-  url: "https://raphaelkoenig.dev",
-  image: "https://raphaelkoenig.dev/raphael-photo.png",
+  url: "https://raphaelo.lol",
+  image: "https://raphaelo.lol/raphael-photo.png",
   jobTitle: "Software Developer & Founder",
   knowsAbout: [
     "Web Development",
@@ -125,7 +125,7 @@ const personSchema = {
   knowsLanguage: ["German", "English"],
   sameAs: [
     "https://github.com/raphaelkoenig",
-    "https://raphaelkoenig.dev",
+    "https://raphaelo.lol",
   ],
   contactPoint: [
     {
@@ -136,13 +136,13 @@ const personSchema = {
   ],
   founder: {
     "@type": "Organization",
-    "@id": "https://raphaelkoenig.dev/#nyxhosting",
+    "@id": "https://raphaelo.lol/#nyxhosting",
     name: "NyxHosting",
     description:
       "NyxHosting is a free Minecraft server hosting company founded by Raphael König. It provides free game server hosting to players who cannot afford paid services.",
     url: "https://nyxhosting.net",
     foundingDate: "2024",
-    founder: { "@id": "https://raphaelkoenig.dev/#person" },
+    founder: { "@id": "https://raphaelo.lol/#person" },
     serviceType: "Game Server Hosting",
     areaServed: "Worldwide",
     offers: {
@@ -157,16 +157,16 @@ const personSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://raphaelkoenig.dev/#website",
-  url: "https://raphaelkoenig.dev",
+  "@id": "https://raphaelo.lol/#website",
+  url: "https://raphaelo.lol",
   name: "Raphael König — Portfolio",
   description:
     "Official portfolio website of Raphael König, self-taught developer and founder of NyxHosting.",
-  author: { "@id": "https://raphaelkoenig.dev/#person" },
+  author: { "@id": "https://raphaelo.lol/#person" },
   inLanguage: "en",
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://raphaelkoenig.dev/?q={search_term_string}",
+    target: "https://raphaelo.lol/?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };
@@ -174,14 +174,14 @@ const websiteSchema = {
 const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  "@id": "https://raphaelkoenig.dev/#webpage",
-  url: "https://raphaelkoenig.dev",
+  "@id": "https://raphaelo.lol/#webpage",
+  url: "https://raphaelo.lol",
   name: "Raphael König — Developer & Founder of NyxHosting",
   description:
     "Portfolio and profile page of Raphael König, a 13-year-old self-taught developer and founder of NyxHosting from Germany.",
-  isPartOf: { "@id": "https://raphaelkoenig.dev/#website" },
-  about: { "@id": "https://raphaelkoenig.dev/#person" },
-  mainEntity: { "@id": "https://raphaelkoenig.dev/#person" },
+  isPartOf: { "@id": "https://raphaelo.lol/#website" },
+  about: { "@id": "https://raphaelo.lol/#person" },
+  mainEntity: { "@id": "https://raphaelo.lol/#person" },
   dateModified: new Date().toISOString(),
   inLanguage: "en",
   breadcrumb: {
@@ -191,7 +191,7 @@ const webPageSchema = {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://raphaelkoenig.dev",
+        item: "https://raphaelo.lol",
       },
     ],
   },
@@ -222,7 +222,7 @@ export default function RootLayout({
         <meta name="language" content="English" />
         <meta name="revisit-after" content="7 days" />
         <meta name="rating" content="General" />
-        <link rel="canonical" href="https://raphaelkoenig.dev" />
+        <link rel="canonical" href="https://raphaelo.lol" />
       </head>
       <body className="min-h-full flex flex-col bg-zinc-950 text-zinc-100">
         {children}
