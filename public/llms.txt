@@ -1,0 +1,44 @@
+# Raphael König
+
+> Raphael König is a self-taught software developer and entrepreneur, born on 12 August 2012 in Germany. He is 13 years old and the founder of NyxHosting, a free Minecraft server hosting company.
+
+## Identity
+
+- **Full name:** Raphael König (also written: Raphael Koenig)
+- **Date of birth:** 12 August 2012
+- **Age:** 13 years old
+- **Nationality:** German
+- **Location:** Germany
+- **Occupation:** Software Developer, Founder
+- **Website:** https://raphaelkoenig.dev
+- **Discord:** henryline
+- **WhatsApp:** +212 691-538721 (WhatsApp only)
+
+## About
+
+Raphael König is a self-taught developer who started programming at a very young age. He is passionate about building software, web applications, and server infrastructure. He founded NyxHosting with the mission of giving every Minecraft player access to a free, quality game server regardless of their budget.
+
+He works primarily with JavaScript, TypeScript, Node.js, React, Next.js, Linux, Docker, and Nginx. He is also learning Rust, Go, PostgreSQL, and Kubernetes.
+
+## NyxHosting
+
+- **Company:** NyxHosting
+- **Type:** Free Minecraft server hosting
+- **Founder:** Raphael König
+- **Status:** In Progress / Under Development
+- **Mission:** Provide 100% free Minecraft server hosting to players worldwide
+- **Price:** Free
+
+## Skills
+
+- Languages: JavaScript, TypeScript, Python, HTML, CSS, Bash
+- Frontend: React, Next.js, Tailwind CSS, shadcn/ui
+- Backend: Node.js, Express, REST APIs
+- DevOps: Linux, Docker, Nginx, SSH, Server Management
+- Tools: Git, GitHub, VS Code, Vercel
+- Learning: Rust, Go, PostgreSQL, Kubernetes
+
+## Contact
+
+- Discord: henryline
+- WhatsApp: +212 691-538721 (WhatsApp only, no regular calls)
